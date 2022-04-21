@@ -93,12 +93,15 @@ for(let i=0; i < 11; i ++ ){
 */
 
 //CODE HERE
-var numberArrayOne = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9,]
-for(let i = 0; i < numberArrayOne; i++){
-  numberArrayOne[i]+=1
-  console.log(numberArrayOne);
-};
+//var numberArrayOne = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9,]
+//for(let z = 0; z < numberArrayOne; z++){
+  //numberArrayOne[z]+=1
+  //console.log(numberArrayOne);
+//};
 
+for(let p = 1; p < 11; p++){
+  console.log(p);
+}
 ////////// PROBLEM 7 //////////
 
 /*
@@ -107,12 +110,12 @@ for(let i = 0; i < numberArrayOne; i++){
 
 //CODE HERE
 //numberArrayTwo = [11, 10, 9, 8, 7, 6, 5, 4, 3, 2,]
-//for(let i = 0; i < numberArrayTwo; i--){
-  //numberArrayTwo[i]-=1
-  //console.log(i);
-//}
+// for(let i = 0; numberArrayTwo < 10; i--){
+//   numberArrayTwo[i]-=1
+//   console.log(i);
+// }
 
-for (let i = 10; i > 0; i--) {
+for (let i = 10; i> 0; i--) {
   console.log(i)
 }
 
@@ -156,7 +159,8 @@ while (score < passingScore) {
 //CODE HERE
 
 changeMyMind = !changeMyMind
-console.log(changeMyMind);
+console.log(changeMyMind + "problem 10 was a success");
+// console.log("problem 10")
 
 ////////// ADVANCED PROBLEMS //////////
 
@@ -166,7 +170,15 @@ let z = 5;
 // Create a while loop that continues to run while z is greater than 0. Within the while loop, log a countdown from the value of z to 1. Once you have logged the countdown, make sure you decrement z by 1. If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
 
 //CODE HERE
-while (z < 0){
-  console.log +="Countdown" + z
-  z--;
+//while (z < 0){
+  //console.log +="Countdown" + z
+  //z--;
+//}
+//was missing the for loop in the while loop
+
+while (z > 0) {
+  for (let i = z; i > 0; i--) {
+    console.log(i)
+  }
+  z--
 }
